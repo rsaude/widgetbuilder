@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Embed Code Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="generator-form">
+    <!-- Input fields for creating the embed -->
+    <input type="text" id="tour-title" placeholder="Tour Title">
+    <input type="text" id="tour-subtitle" placeholder="Tour Subtitle">
+    <input type="text" id="image-url" placeholder="Image URL">
+    <input type="text" id="booking-url" placeholder="Booking URL">
+    <button id="generate-btn">Generate Code</button>
+</div>
+
+<div id="edit-form" style="display:none;">
+    <!-- Textarea for pasting the generated code to edit -->
+    <textarea id="code-to-edit" rows="10" cols="50" placeholder="Paste your code here to edit..."></textarea>
+    <button id="edit-btn">Edit Code</button>
+</div>
+
+<div id="embed-preview">
+    <!-- This is where the embed preview will be shown -->
+</div>
+
+<div id="embed-code">
+    <!-- This is where the generated embed code will be displayed -->
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
